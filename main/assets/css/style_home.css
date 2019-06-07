@@ -1,0 +1,115 @@
+@charset "utf-8";
+@font-face {
+    font-family: goticstd;
+    src: url(./goticstd.ttf);
+}
+
+
+/* CSS Document */
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 600px) {}
+
+
+/* estilos globales
+-------------------------------------------------- */
+
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #5a5a5a;
+    background: #000000;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+}
+
+.tit {
+    font-family: goticstd;
+    font-size: 26px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 400px;
+    color: white;
+}
+
+.cont {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 350px;
+    font-family: goticstd;
+    font-size: 26px;
+    color: white;
+}
+
+.elem {
+    font-family: goticstd;
+    font-size: 26px;
+    color: white;
+}
+
+
+/* estilos iconos
+-------------------------------------------------- */
+
+.fa {
+    padding: 4px;
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    /* fonts */
+    background: #266E36;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.5;
+    color: white;
+}
+
+
+/* estilos footer
+-------------------------------------------------- */
+
+.footer {
+    position: fixed;
+    bottom: 0rem;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f5f5f5;
+    color: #ff6c00;
+}
+
+footer a {
+    color: #ff6c00;
+}
+
+footer a:visited {
+    color: #ff6c00;
+}
